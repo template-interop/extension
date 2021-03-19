@@ -1,0 +1,21 @@
+{
+  "name": "template-interop/extension",
+  "description": "Extension system for template interop",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Keven Godet",
+      "email": "hello@keven.fr"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "template-interop/engine": "^0.0.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Interop\\Template\\Extension\\": "src"
+    }
+  }
+}
